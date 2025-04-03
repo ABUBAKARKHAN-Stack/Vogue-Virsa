@@ -4,20 +4,26 @@ import { Button } from "./ui/button";
 import { Separator } from "./ui/separator";
 import { motion } from 'motion/react'
 import { poppins } from '@/utils/font'
+import Image from 'next/image';
 
 const Hero = () => {
     return (
         <section className="relative overflow-hidden flex flex-col justify-center items-center min-h-screen">
             {/* Background Image */}
             <div className="absolute inset-0 overflow-hidden">
-                <motion.img
-                    src="/assets/herobg.png"
-                    alt="Vogue Virsa Hero Background"
-                    className="w-full h-full object-cover"
+                <motion.div
+                    className="relative w-full h-full"
                     initial={{ opacity: 0, filter: "blur(5px)" }}
                     animate={{ opacity: 1, filter: "blur(0px)" }}
                     transition={{ ease: "easeIn", duration: 1.5 }}
-                />
+                >
+                    <Image
+                        src="/assets/herobg.png"
+                        alt="Vogue Virsa Hero Background"
+                        fill
+                        className="w-full h-full object-cover"
+                    />
+                </motion.div>
                 <motion.div
                     className="absolute inset-0 bg-black"
                     initial={{ opacity: 0.2 }}
