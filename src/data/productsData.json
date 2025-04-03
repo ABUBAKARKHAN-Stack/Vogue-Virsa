@@ -1,0 +1,66 @@
+[
+  {
+    "src": "/assets/bottles/1.png",
+    "productName": "INTENSITY",
+    "perfumeFor": "Mens",
+    "originalPrice": 2550,
+    "disPrice": 2299,
+    "description": "A bold and lasting fragrance that defines strength and passion."
+  },
+  {
+    "src": "/assets/bottles/2.png",
+    "productName": "Virsa Bloom",
+    "perfumeFor": "Womens",
+    "originalPrice": 2650,
+    "disPrice": 2399,
+    "description": "A delicate floral scent that captures elegance and charm."
+  },
+  {
+    "src": "/assets/bottles/3.png",
+    "productName": "Razaz-e-Virsa",
+    "perfumeFor": "Mens",
+    "originalPrice": 2550,
+    "disPrice": 2399,
+    "description": "A sophisticated blend of woody and musky notes for the modern man."
+  },
+  {
+    "src": "/assets/bottles/4.png",
+    "productName": "Musk-e-Bismil",
+    "perfumeFor": "Womens",
+    "originalPrice": 2650,
+    "disPrice": 2399,
+    "description": "A luxurious and enchanting scent with deep musky undertones."
+  },
+  {
+    "src": "/assets/bottles/1.png",
+    "productName": "INTENSITY",
+    "perfumeFor": "Mens",
+    "originalPrice": 2550,
+    "disPrice": 2299,
+    "description": "A bold and lasting fragrance that defines strength and passion."
+  },
+  {
+    "src": "/assets/bottles/2.png",
+    "productName": "Virsa Bloom",
+    "perfumeFor": "Womens",
+    "originalPrice": 2650,
+    "disPrice": 2399,
+    "description": "A delicate floral scent that captures elegance and charm."
+  },
+  {
+    "src": "/assets/bottles/3.png",
+    "productName": "Razaz-e-Virsa",
+    "perfumeFor": "Mens",
+    "originalPrice": 2550,
+    "disPrice": 2399,
+    "description": "A sophisticated blend of woody and musky notes for the modern man."
+  },
+  {
+    "src": "/assets/bottles/4.png",
+    "productName": "Musk-e-Bismil",
+    "perfumeFor": "Womens",
+    "originalPrice": 2650,
+    "disPrice": 2399,
+    "description": "A luxurious and enchanting scent with deep musky undertones."
+  }
+]

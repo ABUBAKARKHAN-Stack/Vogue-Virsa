@@ -1,0 +1,32 @@
+[
+    {
+        "icon": "check-circle",
+        "title": "Premium Quality",
+        "description": "We provide only the highest quality products, carefully crafted to meet the standards of luxury and elegance."
+    },
+    {
+        "icon": "truck",
+        "title": "Fast Shipping",
+        "description": "Enjoy swift delivery of your favorite fragrances, ensuring that you receive your order promptly and securely."
+    },
+    {
+        "icon": "headphones",
+        "title": "Exceptional Customer Service",
+        "description": "Our dedicated support team is available to assist you with any inquiries, providing top-notch customer care."
+    },
+    {
+        "icon": "star",
+        "title": "Satisfaction Guaranteed",
+        "description": "We believe in the quality of our products, offering a satisfaction guarantee to ensure your happiness with every purchase."
+    },
+    {
+        "icon": "shield-check",
+        "title": "Secure Payments",
+        "description": "Your transactions are protected with the latest security measures, ensuring that your data is safe and secure."
+    },
+    {
+        "icon": "leaf",
+        "title": "Sustainable Practices",
+        "description": "We are committed to eco-friendly practices, ensuring that our products and packaging are environmentally responsible."
+    }
+]
