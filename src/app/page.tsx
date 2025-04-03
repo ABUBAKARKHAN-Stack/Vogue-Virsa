@@ -10,6 +10,7 @@ export default function Home() {
       <Hero />
       <TopRatedProducts />
       <WhyChooseUs />
+      <h1 className="text-4xl text-wrap font-bold text-red-500">Under Development</h1>
     </div>
   );
 }
