@@ -65,7 +65,7 @@ const Navbar = () => {
                         </SheetTrigger>
                         <SheetContent side="left" className="bg-[#000000b1] px-4 border-r border-dashed backdrop-blur-lg text-white">
                             <SheetTitle></SheetTitle>
-                            <img src="/vv-logo.png" alt="logo" className="w-24 mt-3" />
+                            <Image src="/vv-logo.png" alt="Vogue Virsa Logo" height={96} width={96} />
                             <ul className="mt-5 flex flex-col gap-y-6">
                                 {navItems.map(({ text, href }, i) => (
                                     <li key={i}>

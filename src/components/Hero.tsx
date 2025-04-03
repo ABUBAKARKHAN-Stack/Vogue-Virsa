@@ -1,9 +1,7 @@
 "use client";
 import React from 'react'
 import { Button } from "./ui/button";
-import { Separator } from "./ui/separator";
 import { motion } from 'motion/react'
-import { poppins } from '@/utils/font'
 import Image from 'next/image';
 
 const Hero = () => {

@@ -1,6 +1,6 @@
 "use client"
 
-import React, { JSX, JSXElementConstructor, ReactNode, useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import whyChooseUsData from '@/data/whyChoodeUs.json'
 import { CheckCircle2, HeadphonesIcon, LeafIcon, LucideIcon, ShieldCheckIcon, StarIcon, TruckIcon } from 'lucide-react'
 import Image from 'next/image'
@@ -17,8 +17,14 @@ const WhyChooseUs = () => {
         "leaf": LeafIcon,
     };
 
-    const [leftHandSide, setLeftHandSide] = useState<any[]>([])
-    const [rightHandSide, setRightHandSide] = useState<any[]>([])
+    type Data = {
+        description:string;
+        icon:string;
+        title:string
+    }
+
+    const [leftHandSide, setLeftHandSide] = useState<Data[]>([])
+    const [rightHandSide, setRightHandSide] = useState<Data[]>([])
 
     useEffect(() => {
         const middleIndex = Math.floor(whyChooseUsData.length / 2);
@@ -26,6 +32,8 @@ const WhyChooseUs = () => {
         const secondHalf = whyChooseUsData.slice(middleIndex)
         setLeftHandSide(firstHalf);
         setRightHandSide(secondHalf)
+        console.log(firstHalf);
+        
     }, [])
 
     return (

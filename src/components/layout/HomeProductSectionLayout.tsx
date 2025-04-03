@@ -4,11 +4,21 @@ import { BlurFade } from '../ui/blur-fade-animation'
 import Image from 'next/image'
 import Link from 'next/link'
 
+type ProductData = {
+    src: string;
+    productName: string;
+    perfumeFor: string;
+    originalPrice: number;
+    disPrice: number;
+    description: string;
+};
+
+
 type TypeProductSectionLayout = {
     sectionHeading: string;
     sectionDescription: string;
     categoryHeading: string;
-    productData: any[]
+    productData: ProductData[]
 }
 
 const HomeProductsSectionLayout = ({ sectionHeading, sectionDescription, categoryHeading, productData }: TypeProductSectionLayout) => {
